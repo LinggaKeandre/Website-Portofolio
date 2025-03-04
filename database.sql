@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS datasiswa2;
+
+USE datasiswa2;
+
+CREATE TABLE IF NOT EXISTS data_siswa2 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    kelas INT NOT NULL,
+    jurusan VARCHAR(100) NOT NULL,
+    tanggal_lahir DATE NOT NULL
+);
